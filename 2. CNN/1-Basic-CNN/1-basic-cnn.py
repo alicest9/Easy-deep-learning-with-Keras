@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from sklearn import datasets
+from sklearn.datasets import datasets
 from sklearn.model_selection import train_test_split
 from keras.utils.np_utils import to_categorical
 from keras.models import Sequential
